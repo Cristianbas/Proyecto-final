@@ -1,0 +1,17 @@
+.header{
+    background-color: $colorheader;
+    .img-fluid{
+        width:80px;
+    }
+
+    .nav-link{
+        color: $colortextonav;
+        &:hover{
+            background-color: $colorhover;
+        }
+    }
+    .navbar-toggler{
+        box-shadow: none;
+    }
+    
+}

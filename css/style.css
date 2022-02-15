@@ -1,0 +1,131 @@
+.header {
+  background-color: #252422; }
+  .header .img-fluid {
+    width: 80px; }
+  .header .nav-link {
+    color: #CCC5B9; }
+    .header .nav-link:hover {
+      background-color: #EB5E28; }
+  .header .navbar-toggler {
+    box-shadow: none; }
+
+.page-footer {
+  background-color: #403D39; }
+  .page-footer .my-2 {
+    background-color: white; }
+  .page-footer h6 {
+    color: white; }
+  .page-footer .contenedor {
+    background-color: #CCC5B9; }
+
+.img {
+  border: 5px solid #080808;
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center;
+  height: calc(160vh - 550px); }
+
+.display-4 {
+  color: #EB5E28; }
+
+.discografia {
+  color: #EB5E28;
+  font-size: 15px;
+  font-weight: bolder; }
+
+@media (max-width: 760px) {
+  .img {
+    max-width: 450px;
+    max-height: 200px; } }
+
+@media (max-width: 390px) {
+  .img {
+    max-width: 300px;
+    max-height: 150px; } }
+
+.main {
+  background-color: #CCC5B9; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  grid-auto-rows: 500px;
+  padding: 10px;
+  grid-gap: 15px; }
+  .galeria .imagenes {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+@media (max-width: 760px) {
+  .imagenes {
+    max-width: 750px; }
+  .galeria {
+    grid-auto-rows: 250px; } }
+
+@media (max-width: 390px) {
+  .imagenes {
+    max-height: 160px;
+    max-width: 300px; }
+  .galeria {
+    grid-auto-rows: 150px; } }
+
+body {
+  background-color: #FFFCF2; }
+
+main h1 {
+  color: #EB5E28;
+  text-align: center;
+  font-size: 50px; }
+
+main .introduccion {
+  color: #EB5E28;
+  text-align: center;
+  font-size: 20px; }
+
+.capa {
+  display: flex; }
+  .capa .parrafo {
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #EB5E28; }
+    .capa .parrafo .imagennosotros {
+      width: 480px;
+      border-radius: 5px;
+      box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+      float: left;
+      margin-right: 15px; }
+    .capa .parrafo .nosotros {
+      padding: 10px;
+      box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+      font-weight: bolder;
+      border-radius: 5px; }
+
+@media (max-width: 760px) {
+  .imagennosotros {
+    max-width: 400px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 20px; }
+  .parrafo {
+    max-height: 1600px;
+    padding: 8px 8px;
+    line-height: 0.5;
+    background: #EB5E28; } }
+
+@media (max-width: 390px) {
+  .imagennosotros {
+    max-width: 300px;
+    border-radius: 5px;
+    margin-right: 15px; }
+  .nosotros {
+    padding: 0px;
+    font-weight: bolder;
+    border-radius: 5px; }
+  .parrafo {
+    width: 390px;
+    padding: 400px;
+    font-size: 15px;
+    line-height: 0.5;
+    background: #EB5E28; } }
